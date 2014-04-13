@@ -19,56 +19,56 @@ void Box::update(float deltaTime)
 	x += vx*deltaTime;
 	y += vy*deltaTime;
 }
-int Box::getX()
+float Box::getX()
 {
 	return x;
 }
 
-void Box::setX(int x)
+void Box::setX(float x)
 {
 	this->x = x;
 }
 
-int Box::getY()
+float Box::getY()
 {
 	return y;
 }
 
-void Box::setY(int y)
+void Box::setY(float y)
 {
 	this->y = y;
 }
-int Box::getH()
+float Box::getH()
 {
 	return height;
 }
-void Box::setH(int h)
+void Box::setH(float h)
 {
 	height = h;
 }
-int Box::getW()
+float Box::getW()
 {
 	return width;
 }
-void Box::setW(int w)
+void Box::setW(float w)
 {
 	width = w;
 }
 
-int Box::getVx()
+float Box::getVx()
 {
 	return vx;
 }
-void Box::setVx(int Vx)
+void Box::setVx(float Vx)
 {
 	vx = Vx;
 }
 
-int Box::getVy()
+float Box::getVy()
 {
 	return vy;
 }
-void Box::setVy(int Vy)
+void Box::setVy(float Vy)
 {
 	vy = Vy;
 }
